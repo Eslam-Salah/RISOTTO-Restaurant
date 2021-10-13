@@ -1,0 +1,610 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <title>RISOTTO Restaurant</title>
+  </head>
+  <body>
+    <div class="container">
+      <header
+        class="d-flex justify-content-between align-items-center container-fluid position-static head">
+        <h4 class="text-uppercase">Risotto</h4>
+        <div class="icons">
+          <i class="fab fa-facebook-f"></i>
+          <i class="fab fa-twitter"></i>
+          <i class="fab fa-google"></i>
+        </div>
+      </header>
+    </div>
+    <nav
+      class="navbar navbar-expand-lg navbar-light bg-light sticky-top w-100%shadow">
+      <div class="container">
+        <div class="container-fluid">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#home">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#menu">Menu</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#reservation">Reservation</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#event">Events</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+            </ul>
+            <div class="nav-contact">
+              <span><i class="fa fa-phone"></i> 045-548-14-97</span>
+              <span
+                ><i class="fa fa-map-marker-alt"></i> 3685 Granville Lane</span
+              >
+              <button type="button">Resevre</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="home" id="home">
+      <div class="home-content">
+        <h2>Welcome to risotto Restaurant</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ad dicta
+          numquam assumenda nostrum fugit velit quos delectus quibusdam nobis
+          culpa!
+        </p>
+        <a href="#about" type="button" class="btn">Discover Menu</a>
+      </div>
+    </section>
+
+    <section class="about text-center pt-5" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="mb-5">
+            <h4>About Us</h4>
+            <h2>The Risotto Restaurant</h2>
+            <span class="line"></span>
+          </div>
+          <div class="col-md-5 txt">
+            <h5>
+              Welcome to Risotto Restaurant. Since 1988, Offering Traditional
+              Dishes of the highest quality.
+            </h5>
+          </div>
+          <div class="col-md-7 txt">
+            <h5>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+              veritatis voluptates fuga nihil facilis est! Vitae temporibus
+              adipisci ipsa facere?
+            </h5>
+          </div>
+        </div>
+        <!-- End Row -->
+        <div class="mt-5 images">
+          <div class="about-img">
+            <div class="overlay">
+              <button type="button" class="btn">Show More</button>
+            </div>
+            <img src="img/image01.jpg" alt="" />
+          </div>
+          <div class="about-img">
+            <div class="overlay">
+              <button type="button" class="btn">Show More</button>
+            </div>
+            <img src="img/image02.jpg" alt="" />
+          </div>
+          <div class="about-img">
+            <div class="overlay">
+              <button type="button" class="btn">Show More</button>
+            </div>
+            <img src="img/image03.jpg" alt="" />
+          </div>
+          <div class="about-img">
+            <div class="overlay">
+              <button type="button" class="btn">Show More</button>
+            </div>
+            <img src="img/image04.jpg" alt="" />
+          </div>
+          <div class="about-img">
+            <div class="overlay">
+              <button type="button" class="btn">Show More</button>
+            </div>
+            <img src="img/image05.jpg" alt="" />
+          </div>
+          <div class="about-img">
+            <div class="overlay">
+              <button type="button" class="btn">Show More</button>
+            </div>
+            <img src="img/image06.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="menu text-center pt-5 pb-5 mt-5" id="menu">
+      <div class="container">
+        <div class="mb-5">
+          <h4>Menu</h4>
+          <h2>Our Menu</h2>
+          <span class="line"></span>
+        </div>
+        <div class="menu-content">
+          <ul class="tabs mb-0">
+            <li class="active" data-content=".one">Dinner</li>
+            <li data-content=".three">Launch</li>
+            <li data-content=".four">Dessert</li>
+            <li data-content=".two">Drinks</li>
+          </ul>
+          <div class="slide-menu">
+            <div class="one">
+              <h3>Dinner</h3>
+              <div class="menu-items">
+                <div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Steamed Chili Moussaka</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Basted Rhubarb Mussels</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Slow-Cooked Basil & Lime Ostrich</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Blanched Fennel & Orange Lasagna</h6>
+                    <p>79$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Stuffed Oregano Chicken</h6>
+                    <p>145$</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Basted Rhubarb Mussels</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Blanched Fennel & Orange Lasagna</h6>
+                    <p>79$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Steamed Chili Moussaka</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Stuffed Oregano Chicken</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Slow-Cooked Basil & Lime Ostrich</h6>
+                    <p>57$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End One -->
+
+            <div class="two">
+              <h3>Drinks</h3>
+              <div class="menu-items">
+                <div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Stuffed Oregano Chicken</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Steamed Chili Moussaka</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Basted Rhubarb Mussels</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Slow-Cooked Basil & Lime Ostrich</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Blanched Fennel & Orange Lasagna</h6>
+                    <p>79$</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Stuffed Oregano Chicken</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Steamed Chili Moussaka</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Basted Rhubarb Mussels</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Slow-Cooked Basil & Lime Ostrich</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Blanched Fennel & Orange Lasagna</h6>
+                    <p>79$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Two -->
+
+            <div class="three">
+              <h3>Launch</h3>
+              <div class="menu-items">
+                <div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Basted Rhubarb Mussels</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Steamed Chili Moussaka</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Blanched Fennel & Orange Lasagna</h6>
+                    <p>79$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Slow-Cooked Basil & Lime Ostrich</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Stuffed Oregano Chicken</h6>
+                    <p>145$</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Basted Rhubarb Mussels</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Steamed Chili Moussaka</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Blanched Fennel & Orange Lasagna</h6>
+                    <p>79$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Slow-Cooked Basil & Lime Ostrich</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Stuffed Oregano Chicken</h6>
+                    <p>145$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Three -->
+
+            <div class="four">
+              <h3>Dessert</h3>
+              <div class="menu-items">
+                <div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Slow-Cooked Basil & Lime Ostrich</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Stuffed Oregano Chicken</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Blanched Fennel & Orange Lasagna</h6>
+                    <p>79$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Basted Rhubarb Mussels</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Steamed Chili Moussaka</h6>
+                    <p>145$</p>
+                  </div>
+                </div>
+                <div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Steamed Chili Moussaka</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Stuffed Oregano Chicken</h6>
+                    <p>145$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Slow-Cooked Basil & Lime Ostrich</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Basted Rhubarb Mussels</h6>
+                    <p>57$</p>
+                  </div>
+                  <div class="name d-flex justify-content-between">
+                    <h6>Blanched Fennel & Orange Lasagna</h6>
+                    <p>79$</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- End Four -->
+          </div>
+          <!-- End slide-menu -->
+        </div>
+        <!-- End menu-content -->
+      </div>
+    </section>
+
+    <section class="reservation" id="reservation">
+      <div class="container">
+        <div class="row">
+          <form class="row g-3 mt-5 col-md-6">
+            <div class="col-sm-12 text-center title">
+              <h4>Reservation</h4>
+              <h2>Book Your Table</h2>
+              <span class="line"></span>
+            </div>
+            <div class="col-md-6">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                placeholder="Name"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="email" class="form-label">Email</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="Email"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="phone" class="form-label">Phone</label>
+              <input
+                type="number"
+                class="form-control"
+                id="phone"
+                placeholder="Phone"
+              />
+            </div>
+            <div class="col-md-6">
+              <label for="gustes" class="form-label">Number of gustes</label>
+              <select id="gustes" class="form-select">
+                <option selected>1 Person</option>
+                <option>2 Person</option>
+                <option>3 Person</option>
+                <option>4 Person</option>
+                <option>5 Person</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="date" class="form-label">Date</label>
+              <input type="date" class="form-control" id="date" />
+            </div>
+            <div class="col-md-6">
+              <label for="time" class="form-label">Time</label>
+              <input
+                type="text"
+                class="form-control"
+                id="time"
+                placeholder="HH:MM"
+              />
+            </div>
+            <div class="col-12 text-center">
+              <button type="submit">Sign in</button>
+            </div>
+          </form>
+          <div class="col-md-6 opening-time text-center">
+            <div class="title col-md-12">
+              <h2 class="mb-3">Opening Time</h2>
+              <span class="line mb-4"></span>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p>Sunday</p>
+              <span>8:00 am – 11:00 pm</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p>Monday</p>
+              <span>8:00 am – 11:00 pm</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p>Tuesday</p>
+              <span>8:00 am – 11:00 pm</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p>Wednesday</p>
+              <span>8:00 am – 11:00 pm</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p>Thursday</p>
+              <span>8:00 am – 11:00 pm</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p>Friday</p>
+              <span>Closed</span>
+            </div>
+            <div class="d-flex justify-content-between align-items-center">
+              <p>Saturday</p>
+              <span>Clsoed</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="event" id="event">
+      <div class="container">
+        <div class="title text-center">
+          <h4>Special Event</h4>
+          <h2>Upcoming Event</h2>
+          <span class="line mb-4"></span>
+        </div>
+        <div class="d-flex flex-wrap">
+          <div class="event-content mt-4">
+            <div class="event-img">
+              <div class="overlay">
+                <span
+                  >08 <br />
+                  July</span
+                >
+              </div>
+              <img src="img/event01.jpg" alt="" />
+            </div>
+            <div class="event-item">
+              <span class="time">
+                <i class="fa fa-clock"></i>8.00PM - 10.00PM
+              </span>
+              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+              <p>
+                Te sit stet labitur veritus, sea similique consetetur ut. Ne
+                fastidii oportere usu. Iusto mediocrem iudicabit ea eos.
+              </p>
+            </div>
+          </div>
+          <div class="event-content mt-4">
+            <div class="event-img">
+              <div class="overlay">
+                <span
+                  >08 <br />
+                  July</span
+                >
+              </div>
+              <img src="img/event02.jpg" alt="" />
+            </div>
+            <div class="event-item">
+              <span class="time">
+                <i class="fa fa-clock"></i>8.00PM - 10.00PM
+              </span>
+              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+              <p>
+                Te sit stet labitur veritus, sea similique consetetur ut. Ne
+                fastidii oportere usu. Iusto mediocrem iudicabit ea eos.
+              </p>
+            </div>
+          </div>
+          <div class="event-content mt-4">
+            <div class="event-img">
+              <div class="overlay">
+                <span
+                  >08 <br />
+                  July</span
+                >
+              </div>
+              <img src="img/event02.jpg" alt="" />
+            </div>
+            <div class="event-item">
+              <span class="time">
+                <i class="fa fa-clock"></i>8.00PM - 10.00PM
+              </span>
+              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+              <p>
+                Te sit stet labitur veritus, sea similique consetetur ut. Ne
+                fastidii oportere usu. Iusto mediocrem iudicabit ea eos.
+              </p>
+            </div>
+          </div>
+          <div class="event-content mt-4">
+            <div class="event-img">
+              <div class="overlay">
+                <span
+                  >08 <br />
+                  July</span
+                >
+              </div>
+              <img src="img/event01.jpg" alt="" />
+            </div>
+            <div class="event-item">
+              <span class="time">
+                <i class="fa fa-clock"></i>8.00PM - 10.00PM
+              </span>
+              <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+              <p>
+                Te sit stet labitur veritus, sea similique consetetur ut. Ne
+                fastidii oportere usu. Iusto mediocrem iudicabit ea eos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact mt-5" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-item col-md-6 p-5">
+            <div class="title">
+              <h4>Contact Us</h4>
+              <h2>Get In Touch</h2>
+              <span class="line mb-4"></span>
+            </div>
+            <div class="cantact-content">
+              <p>
+                Te sit stet labitur veritus, sea similique consetetur ut. Ne
+                fastidii oportere usu. Iusto mediocrem iudicabit ea eos, nemore
+                offendit detraxit ei cum.
+              </p>
+              <h4>Tel: <a href="#">045-548-14-97</a></h4>
+              <p>Address: 3685 Granville Lane</p>
+              <p>Email: <a href="#">Risotto@email.com</a></p>
+              <p>
+                Follow Us:
+                <i class="fab fa-facebook-f"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-google"></i>
+              </p>
+            </div>
+          </div>
+          <div class="contact-map text-center col-md-6">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54695.266018647584!2d31.41785910916174!3d31.041454962094512!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x14f79db7a9053547%3A0xf8dab3bbed766c97!2z2KfZhNmF2YbYtdmI2LHYqdiMINin2YTZhdmG2LXZiNix2KkgKNmC2LPZhSAyKdiMINin2YTZhdmG2LXZiNix2KnYjCDYp9mE2K_ZgtmH2YTZitip!5e0!3m2!1sar!2seg!4v1627428760878!5m2!1sar!2seg"
+              allowfullscreen=""
+              loading="lazy"
+            ></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>Copyright &copy; 2021 All rights reserved by Eslam Salah</p>
+    </footer>
+
+    <div class="arrow-top">
+      <i class="fa fa-arrow-alt-circle-up"></i>
+    </div>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
